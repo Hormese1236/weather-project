@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Home from './Home';
 import App from './App';
+import City2 from'./City2'
+import Banglore from './Banglore';
 import reportWebVitals from './reportWebVitals';
+import Mumbai from './Mumbai'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Home/>
+    <City2/>
+    <Banglore/>
+    <Mumbai/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,23 @@
+#homecss{
+    background-image:url("cloudedsky.jpg") ;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  }
+  .head1{
+      display: flex;
+      justify-content: center;
+      color: white;
+    font-size:x-large
+    
+  }
+  .head2{
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  .head{
+  color: black;
+  }

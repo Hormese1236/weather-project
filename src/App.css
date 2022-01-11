@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+#header{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family:bold;}
+  #search{
+    width: 60%;
+    height: 60px;
+     border-radius:30px ;
+  }
