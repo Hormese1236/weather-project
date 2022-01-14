@@ -39,10 +39,11 @@
 #header{
   text-align: center;
   color: white;
-  font-size: 50px;
+  font-size: 20px;
   font-family:bold;}
   #search{
-    width: 60%;
+    width:1000px;
+    
     height: 60px;
      border-radius:30px ;
   }

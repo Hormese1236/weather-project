@@ -9,21 +9,22 @@ class Home extends Component {
     render() {
         return (
             <div classname='white'>
+            <br></br>
             <div id='homecss'>
 
-        
+            <br></br>
             <Container>
        <Row>
-           <Col></Col>
+           
            <Col>   <h1 className='head2'>My Location</h1></Col>
            <Col>   <h2 className='head2'>Pithoragarh</h2></Col>
          
 
            <Row> <Col>   <h2 className='head2'>cloudy</h2></Col></Row>
-          
-           <Row>
+          <Col><br></br></Col>
+           
            <Col>   <h2 className='head2'>12°C</h2></Col>
-           </Row>
+           
 
     
        </Row>

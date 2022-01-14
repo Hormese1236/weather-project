@@ -7,6 +7,8 @@ import City2 from'./City2'
 import Banglore from './Banglore';
 import reportWebVitals from './reportWebVitals';
 import Mumbai from './Mumbai'
+import Mylocation from './Mylocation';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +17,7 @@ ReactDOM.render(
     <City2/>
     <Banglore/>
     <Mumbai/>
+    <Mylocation/>
   </React.StrictMode>,
   document.getElementById('root')
 );

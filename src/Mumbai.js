@@ -11,10 +11,10 @@ class Mumbai extends Component {
                     <div className='break'><br></br>
            
            <div className='home3css'>
-
+           <br></br>
            <Container>
        <Row>
-           <Col></Col>
+          
            <Col>   <h1 className='head2'>Mumbai</h1></Col>
            <Col>   <h2 className='head2'>2:12 pm</h2></Col>
          
