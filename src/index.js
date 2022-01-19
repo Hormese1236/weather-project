@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Home from "./Home";
-import App from "./App";
-import City2 from "./City2";
-import Banglore from "./Banglore";
+import Home from "./Components/Home";
+import App from "./Components/App";
+import City2 from "./Components/City2";
+import Banglore from "./Components/Banglore";
 import reportWebVitals from "./reportWebVitals";
-import Mumbai from "./Mumbai";
-import Mylocation from "./Mylocation";
+import Mumbai from "./Components/Mumbai";
+import Mylocation from "./Components/Mylocation";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(

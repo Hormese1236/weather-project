@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import cloudedsky from "./cloudedsky.jpg";
-import "./City2.css";
+import cloudedsky from '../Images/cloudedsky.jpg';
+
+import "../Styles/City2.css";
 
 class City2 extends Component {
   render() {

@@ -1,7 +1,8 @@
-.home2css {
-  background-image: url("Bluesky.jpg");
+.home3css{
+    background-image:url("../Images/smoke.jpg") ;
   height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
-}
+
+  }
