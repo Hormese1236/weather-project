@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import smoke from "./Images/smoke.jpg";
-import "./Styles/Mumbai.css";
+import smoke from "../Images/smoke.jpg";
+import "../Styles/Mumbai.css";
 class Mumbai extends Component {
   render() {
     return (

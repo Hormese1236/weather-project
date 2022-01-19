@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "./Styles/Banglore.css";
+import "../Styles/Banglore.css";
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Bluesky from './Images/Bluesky.jpg';
+import Bluesky from '../Images/Bluesky.jpg';
 class Banglore extends Component {
   render() {
     return (

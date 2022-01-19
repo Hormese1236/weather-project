@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import cloudedsky from "./Images/cloudedsky.jpg";
+import cloudedsky from "../Images/cloudedsky.jpg";
 
-import "./Styles/Home.css";
+import "../Styles/Home.css";
 class Home extends Component {
   render() {
     return (
