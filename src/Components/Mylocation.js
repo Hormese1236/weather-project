@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import "./Mylocation.css";
+import "./Styles/Mylocation.css";
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";

@@ -1,8 +1,7 @@
-.home3css{
-    background-image:url("smoke.jpg") ;
+.home1css {
+  background-image: url('../Images/cloudedsky.jpg');
   height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
-
-  }
+}
