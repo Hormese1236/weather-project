@@ -1,0 +1,32 @@
+#img {
+  background-image: url("cloudedsky.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+#cel {
+  font-size: 150px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+.innerbox {
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+
+  background-color: #708090;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#under {
+  color: white;
+}

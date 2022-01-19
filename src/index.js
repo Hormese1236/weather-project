@@ -1,22 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Home from './Home';
-import App from './App';
-import City2 from'./City2'
-import Banglore from './Banglore';
-import reportWebVitals from './reportWebVitals';
-import Mumbai from './Mumbai'
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Home from "./Home";
+import App from "./App";
+import City2 from "./City2";
+import Banglore from "./Banglore";
+import reportWebVitals from "./reportWebVitals";
+import Mumbai from "./Mumbai";
+import Mylocation from "./Mylocation";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Home/>
-    <City2/>
-    <Banglore/>
-    <Mumbai/>
+    <Home />
+    <City2 />
+    <Banglore />
+    <Mumbai />
+    <Mylocation />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
