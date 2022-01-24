@@ -10,14 +10,19 @@ import Mumbai from "./Components/Mumbai";
 import Mylocation from "./Components/Mylocation";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Home />
-    <City2 />
+    <Home name="My Location" city="Pithoragarh" climate="Cloudy" temp="12°C" />
+    <Home name="New Delhi" time="2:12PM" climate="Cloudy" temp="12°C" />
+    {/* <Home classname="banglore" name="Banglore" time="2:12PM" climate="Mostly sunny" temp="26°C"  /> */}
+
+    {/* <City2 /> */}
     <Banglore />
-    <Mumbai />
-    <Mylocation />
+     <Mumbai /> 
+    <Mylocation /> 
+ 
   </React.StrictMode>,
   document.getElementById("root")
 );
