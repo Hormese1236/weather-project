@@ -303,6 +303,20 @@ class Mylocation extends Component {
                   <Col sm={1}></Col>
                   <ColoredLine color="white" />
                 </Row>
+                <Row>
+                  <Col sm={1}></Col>
+                  <Col>Thursday</Col>
+                  <Col>
+                    <GiRaining size="3pc"></GiRaining>
+                    <h5>40%</h5>
+                  </Col>
+                  <Col>5°C </Col>
+                  5°C
+                  <Col sm={2} className="progressBar">
+                    <ProgressBar now={percentage} />
+                  </Col>
+                  12°C <Col sm={1}></Col>
+                </Row>
               </Container>
             </div>
           </Fragment>
