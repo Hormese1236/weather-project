@@ -149,14 +149,14 @@ class Mylocation extends Component {
               <h3>11°C</h3>
             </Col>
             <Col></Col>
-            <Col></Col>
-            <Col></Col>
+
+            {/* <Col></Col> */}
             <Col sm={1}>
               <h3>9°C</h3>
             </Col>
             <Col></Col>
-            <Col></Col>
-            <Col></Col>
+            {/* <Col></Col>
+            <Col></Col> */}
 
             <Col sm={1}>
               <h3>Sunset</h3>
@@ -197,7 +197,7 @@ class Mylocation extends Component {
                 <Row>
                   <ColoredLine color="white" />
                   <Col sm={1}></Col>
-                  <Col>Monday</Col>
+                  <Col>Thursday</Col>
                   <Col>
                     <GiRaining size="3pc"></GiRaining>
                     <h5>60%</h5>
@@ -213,7 +213,7 @@ class Mylocation extends Component {
                 </Row>
                 <Row>
                   <Col sm={1}></Col>
-                  <Col>Tuesday</Col>
+                  <Col>Friday</Col>
                   <Col>
                     {" "}
                     <GiSunset size="3pc"></GiSunset>
@@ -224,6 +224,84 @@ class Mylocation extends Component {
                     <ProgressBar now={percentage4} />
                   </Col>
                   14°C <Col sm={1}></Col>
+                </Row>
+                <Row>
+                  <ColoredLine color="white" />
+                  <Col sm={1}></Col>
+                  <Col>Saturday</Col>
+                  <Col>
+                    <GiRaining size="3pc"></GiRaining>
+                    <h5>40%</h5>
+                  </Col>
+                  <Col>4°C</Col>4°C
+                  <Col sm={2}>
+                    <ProgressBar now={percentage4} />
+                  </Col>
+                  14°C
+                  <Col sm={1}></Col>
+                  <ColoredLine color="white" />
+                </Row>
+
+                <Row>
+                  <Col sm={1}></Col>
+                  <Col>Sunday</Col>
+                  <Col>
+                    <GiRaining size="3pc"></GiRaining>
+                    <h5>70%</h5>
+                  </Col>
+                  <Col>3°C</Col>3°C
+                  <Col sm={2}>
+                    <ProgressBar now={percentage4} />
+                  </Col>
+                  12°C
+                  <Col sm={1}></Col>
+                  <ColoredLine color="white" />
+                </Row>
+                <Row>
+                  {" "}
+                  <Col sm={1}></Col>
+                  <Col>Monday</Col>
+                  <Col>
+                    <GiRaining size="3pc"></GiRaining>
+                    <h5>50%</h5>
+                  </Col>
+                  <Col>2°C</Col>2°C
+                  <Col sm={2}>
+                    <ProgressBar now={percentage3} />
+                  </Col>
+                  14°C
+                  <Col sm={1}></Col>
+                  <ColoredLine color="white" />
+                </Row>
+                <Row>
+                  {" "}
+                  <Col sm={1}></Col>
+                  <Col>Tuesday</Col>
+                  <Col>
+                    <GiSunset size="3pc"></GiSunset>
+                  </Col>
+                  <Col>3°C</Col>3°C
+                  <Col sm={2}>
+                    <ProgressBar now={percentage} />
+                  </Col>
+                  12°C
+                  <Col sm={1}></Col>
+                  <ColoredLine color="white" />
+                </Row>
+                <Row>
+                  {" "}
+                  <Col sm={1}></Col>
+                  <Col>Wednesday</Col>
+                  <Col>
+                    <GiSunset size="3pc"></GiSunset>
+                  </Col>
+                  <Col>3°C</Col>3°C
+                  <Col sm={2}>
+                    <ProgressBar now={percentage} />
+                  </Col>
+                  12°C
+                  <Col sm={1}></Col>
+                  <ColoredLine color="white" />
                 </Row>
               </Container>
             </div>

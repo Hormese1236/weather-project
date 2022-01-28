@@ -9,7 +9,7 @@ import reportWebVitals from "./reportWebVitals";
 import Mumbai from "./Components/Mumbai";
 import Mylocation from "./Components/Mylocation";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Mylocationsecondweatherscreen from "./Components/Mylocationsecondweatherscreen";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,9 +20,17 @@ ReactDOM.render(
 
     {/* <City2 /> */}
     <Banglore />
-     <Mumbai /> 
-    <Mylocation /> 
- 
+    <Mumbai />
+    <Mylocation />
+    <Mylocationsecondweatherscreen
+      classname="frst"
+      num={1}
+      status="low"
+      percentage="30"
+      statement="Low for the rest of the day" 
+
+    />
+   
   </React.StrictMode>,
   document.getElementById("root")
 );

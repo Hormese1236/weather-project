@@ -1,11 +1,12 @@
 #img {
   background-image: url("../Images/cloudedsky.jpg");
-  height: 200%;
+  height: 300%;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   display: flex;
   justify-content: center;
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
 #cel {
   font-size: 150px;
@@ -26,6 +27,7 @@
   display: flex;
   justify-content: center;
   padding: 10px;
+  opacity: .5;
 }
 
 
@@ -37,7 +39,7 @@
 } */
 .innerbox2{
   font-size: 20px;
-  height:30%;
+  height:45%;
   width: 100%;
 
 
@@ -45,6 +47,7 @@
   border-radius: 10px;
   /* display: flex;
   justify-content: center; */
+  opacity: .5;
  
 }
 .line{
@@ -63,9 +66,7 @@ justify-content: center;
   display: flex;
   justify-content: center;
 }
-.progressbar{
-  
-}
+
 h5{
   color: blue;
 }

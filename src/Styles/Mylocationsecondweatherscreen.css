@@ -1,0 +1,50 @@
+.background{
+
+    background-image: url("../Images/cloudedsky.jpg");
+    height: 300%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif
+   
+  
+  }
+
+  .second{
+      display: flex;
+      justify-content: center;
+  }
+  .uvindex{
+      height: 400px;
+      width: 400px;
+      border-radius: 1pc;
+      background-color: 517693;
+      /* background-color: transparent; */
+    opacity:.6;
+     padding: 1pc;
+     /* font-size: pc; */
+  
+  }
+  .text{
+
+    font-size: 4pc;
+  }
+  .time{
+      font-size: 5pc;
+  }
+  .frst{
+    display: flex;
+     justify-content: space-around; 
+   
+  }
+  .second{
+    display: flex;
+    justify-content: space-around;
+  }
+  #temp{
+    font-size: 100px;
+   padding-left: 1pc;
+  
+  }
+ 
+  
