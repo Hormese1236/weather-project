@@ -9,15 +9,28 @@ import reportWebVitals from "./reportWebVitals";
 import Mumbai from "./Components/Mumbai";
 import Mylocation from "./Components/Mylocation";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Mylocationsecondweatherscreen from "./Components/Mylocationsecondweatherscreen";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Home />
-    <City2 />
+    <Home name="My Location" city="Pithoragarh" climate="Cloudy" temp="12°C" />
+    <Home name="New Delhi" time="2:12PM" climate="Cloudy" temp="12°C" />
+    {/* <Home classname="banglore" name="Banglore" time="2:12PM" climate="Mostly sunny" temp="26°C"  /> */}
+
+    {/* <City2 /> */}
     <Banglore />
     <Mumbai />
     <Mylocation />
+    <Mylocationsecondweatherscreen
+      classname="frst"
+      num={1}
+      status="low"
+      percentage="30"
+      statement="Low for the rest of the day" 
+
+    />
+   
   </React.StrictMode>,
   document.getElementById("root")
 );
