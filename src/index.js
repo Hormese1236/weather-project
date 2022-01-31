@@ -10,6 +10,7 @@ import Mumbai from "./Components/Mumbai";
 import Mylocation from "./Components/Mylocation";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Mylocationsecondweatherscreen from "./Components/Mylocationsecondweatherscreen";
+import Bnglore from "./Components/Bnglore"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -30,6 +31,7 @@ ReactDOM.render(
       statement="Low for the rest of the day" 
 
     />
+    <Bnglore></Bnglore>
    
   </React.StrictMode>,
   document.getElementById("root")
