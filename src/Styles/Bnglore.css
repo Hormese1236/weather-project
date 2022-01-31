@@ -1,0 +1,7 @@
+.home2css {
+    background-image: url("../Images/Bluesky.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+  }
